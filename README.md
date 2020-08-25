@@ -4,7 +4,7 @@ An introduction to Python for non-programmers.
 
 ## About the Lesson
 
-This lesson is based primarily on material from the [Software Carpentry Lessons][SWC] 
+This lesson is based primarily on material from the [Software Carpentry][SWC] lessons
 [Programming with Python][SWC-PWP] and [Plotting and Programming in Python][SWC-PPP],
 along with contributions from the teachers of the course Programming for Astronomy
 and Astrophysics at the University of Amsterdam.
