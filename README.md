@@ -1,14 +1,10 @@
 # Programming for Astronomy and Astrophysics: Lesson 1
 
-[![GitHub release][shields_release]][swc_py_releases]
-[![Create a Slack Account with us][create_slack_svg]][slack_heroku_invite]
-[![Slack Status][slack_channel_status]][slack_channel_url]
-
 An introduction to Python for non-programmers.
 
 ## About the Lesson
 
-This lesson is based primarily on material from the Software Carpentry Lessons 
+This lesson is based primarily on material from the [Software Carpentry Lessons][SWC] 
 [Programming with Python][SWC-PWP] and [Plotting and Programming in Python][SWC-PPP],
 along with contributions from the teachers of the course Programming for Astronomy
 and Astrophysics at the University of Amsterdam.
@@ -28,6 +24,7 @@ The rendered version of the lesson is available at:
 <https://philuttley.github.io/prog4aa_lesson1/>.
 
 ## License
+
 Instructional material from this lesson is made available under the
 [Creative Commons Attribution][cc-by-human] ([CC BY 4.0][cc-by-legal]) license. Except where
 otherwise noted, example programs and software included as part of this lesson are made available
@@ -45,16 +42,10 @@ registered 501(c)3 non-profit organisation based in California, USA. We are a gl
 teaching foundational computational and data science skills to researchers in academia, industry and
 government. More information can be found [here][cp-about].
 
+[SWC]: https://software-carpentry.org/
 [SWC-PWP]: https://swcarpentry.github.io/python-novice-inflammation/
 [SWC-PPP]: https://swcarpentry.github.io/python-novice-gapminder/
 [lesson-example]: https://carpentries.github.io/lesson-example
-[anne_fouilloux]: https://github.com/annefou
-[lauren_ko]: https://github.com/ldko
-[maxim_belkin]: https://github.com/maxim-belkin
-[mike_trizna]: https://github.com/MikeTrizna
-[trevor_bekolay]: http://software-carpentry.org/team/#bekolay_trevor
-[valentina_staneva]: http://software-carpentry.org/team/#staneva_valentina
-[greg_wilson]: https://github.com/gvwilson
 [swc_history]: https://software-carpentry.org/scf/history/
 [best-practices]: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 [good-practices]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
