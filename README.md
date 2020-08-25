@@ -27,20 +27,11 @@ steps manually.
 The rendered version of the lesson is available at:
 <https://philuttley.github.io/prog4aa_lesson1/>.
 
-## Maintainers
-
-Lesson maintainers are [Trevor Bekolay][trevor_bekolay], [Maxim Belkin][maxim_belkin],
-[Anne Fouilloux][anne_fouilloux], [Lauren Ko][lauren_ko], [Valentina Staneva][valentina_staneva], and [creator][swc_history] of Software Carpentry:
-[Greg Wilson][greg_wilson].
-
 ## License
 Instructional material from this lesson is made available under the
 [Creative Commons Attribution][cc-by-human] ([CC BY 4.0][cc-by-legal]) license. Except where
 otherwise noted, example programs and software included as part of this lesson are made available
 under the [MIT license][mit-license]. For more information, see [LICENSE.md](LICENSE.md).
-
-## Citation
-To cite this lesson, please consult with [CITATION](CITATION).
 
 ## About Software Carpentry
 
