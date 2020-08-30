@@ -108,6 +108,7 @@ print('cos(pi) is', cos(pi))
 cos(pi) is -1.0
 ~~~
 {: .output}
+However, you must be careful here, because of name clashes with functions imported from other libraries with the same name, e.g. `numpy.cos`. To avoid this problem, we recommend avoiding importing specific items - use aliases to shorten instead.
 
 ## Create an alias for a library module when importing it to shorten programs.
 

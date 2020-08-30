@@ -29,7 +29,7 @@ Lists are containers that can store many values of different types. Other types 
 Tuples are __immutable__ versions of lists, which can be defined (and are printed) using parentheses rather than square braces (to distinguish them from lists). E.g:
 
 ~~~
-t_1 = (1, 2, 3, 'abc') # We can define a list using parentheses
+t_1 = (1, 2, 3, 'abc') # We can define a tuple using parentheses
 t_2 = 5, 6  # Or without, using a comma separator
 print(t_1,t_2)
 ~~~
@@ -222,9 +222,9 @@ s_1 = set(['G5','G3','O2','B2',('G3','K2'),'F5','B2'])
 We can add or remove a new element to a set using the `add()` and `remove()` methods:
 
 ~~~
-s_2.add('M5')
+s_1.add('M5')
 print(s_2)
-s_2.remove('B2')
+s_1.remove('B2')
 print(s_2)
 ~~~
 {: .language-python}
@@ -260,7 +260,7 @@ Note that the keys do not have to be in the form of strings - they must be immut
 Dictionaries offer a powerful way to collect information, for example we can define a dictionary for another star. Here we do this using the `dict()` function. The key/value pairs are passed to it as a list of tuples (note that the order doesn't really matter as long as we know the keys, so it is changed here):
 
 ~~~
-Arcturus = dict([('Mass_Msol',1.08), ('Lum_Lsol',170), ('Dist_pc',11.26), ('Spec_Type','K0III)])
+Arcturus = dict([('Mass_Msol',1.08), ('Lum_Lsol',170), ('Dist_pc',11.26), ('Spec_Type','K0III')])
 ~~~
 {:.language-python}
 

@@ -156,7 +156,7 @@ with open('smallfile.txt', 'r') as f:
 >> Note that if we instead just print the variable `star`, the output will look like the 
 >> original Python lists:
 > >~~~
->> with open('stars.txt', 'w') as f:
+>> with open('stars2.txt', 'w') as f:
 >>     for star in [Vega, Deneb, Arcturus]:
 >>         f.write(str(star) + '\n')       
 >> ~~~
@@ -181,10 +181,9 @@ For example, the method `split()` can be used to separate out parts of a string 
 
 ~~~
 with open('smallfile.txt', 'r') as f:
-with open('smallfile.txt', 'r') as f:
-for line in f:
-    words = line.split(' ')
-    print(words)
+    for line in f:
+        words = line.split(' ')
+        print(words)
 ~~~
 {: .language-python}
 
@@ -199,10 +198,10 @@ The newline command is still present in the strings! We can remove the `\n` by u
 
 ~~~
 with open('smallfile.txt', 'r') as f:
-for line in f:
-    line2 = line.strip('\n')
-    words = line.split(' ')
-    print(words)
+    for line in f:
+        line2 = line.strip('\n')
+        words = line.split(' ')
+        print(words)
 ~~~
 {: .language-python}
 
@@ -212,6 +211,8 @@ for line in f:
 ['Even', 'more', 'text', 'for', 'this', 'file']
 ~~~
 {: .output}
+
+Note that the default `strip()` with no string specified as its argument will remove both white spaces and newline strings.
 
 We can use indexing to convert values into the resulting lists into whatever data variables we need, using the `float()` or `int()` functions where appropriate to convert the strings output by the read and string methods into numerical values.
 

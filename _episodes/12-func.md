@@ -403,6 +403,9 @@ offset_mean(data, target_mean_value)
 ~~~
 {: .output}
 
+Note that through [PEP 257](https://www.python.org/dev/peps/pep-0257/), Python provides a set of conventions for docstrings.
+
+
 ## Defining Defaults
 
 We have passed parameters to functions in two ways:
@@ -815,6 +818,7 @@ readable code!
 >
 > def f2k(f):
 >     k = ((f-32)*(5.0/9.0)) + 273.15
+>     print(k) 
 >     return k
 >
 > f2k(8)

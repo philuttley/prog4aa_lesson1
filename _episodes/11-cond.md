@@ -741,6 +741,28 @@ Halfway
 ~~~
 {: .output}
 
+Note that `break` included with a `while` in this way can (in some situations) lead to ambiguity about what causes the loop to break. We can make the `while` loop safer if we replace the `break` statement with an additional condition:
+
+~~~
+detected = False
+i = 1
+
+while not detected and i <= 8:
+    i *= 2
+
+    # We could embed some code here to `detect` what we are looking for, e.g. 
+    # a source in an image where i also sets a pixel range searched over
+    
+    if i == 8:
+        print('Halfway')
+        continue  # Skips the rest, starts with the next loop
+    
+    print(i)
+~~~
+{: .language-python}
+
+which produces the same output as the previous example.
+
 [abs-function]: https://docs.python.org/3/library/functions.html#abs
 
 {% include links.md %}

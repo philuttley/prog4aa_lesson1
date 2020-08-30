@@ -277,8 +277,8 @@ more details, then see the [official notebook documentation][jupyterlab-notebook
     and press the <kbd>M</kbd> key.
 *   `In [ ]:` will disappear to show it is no longer a code cell and you will be able to write in 
     Markdown.
-*   Turn the current cell into a Code cell by entering the Command mode (<kbd>Esc</kbd>/gray) and 
-    press the <kbd>y</kbd> key.
+*   Markdown cells have to be executed similar to Python cells with <kbd>Shift</kbd>+<kbd>Return</kbd>.    
+*   Turn the current cell into a Code cell by entering the Command mode (<kbd>Esc</kbd>/gray) and press the <kbd>y</kbd> key.
 
 ### Markdown does most of what HTML does.
 
@@ -499,7 +499,7 @@ Or use [named links][data_carpentry].
 
 ## Closing JupyterLab
 
-*   From the Menu Bar select the "File" menu and the choose "Quit" at the bottom of the dropdown menu. You will be prompted to confirm that you wish to shutdown the JupyterLab server (don't forget to save your work!). Click "Confirm" to shutdown the JupyterLab server.
+*   From the Menu Bar select the "File" menu and the choose "Shut Down" at the bottom of the dropdown menu. You will be prompted to confirm that you wish to shutdown the JupyterLab server (don't forget to save your work!). Click "Shut Down" to shutdown the JupyterLab server.
 *   To restart the JupyterLab server you will need to re-run the following command from a shell.
 
 ~~~

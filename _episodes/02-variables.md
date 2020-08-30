@@ -178,6 +178,22 @@ weight in kilograms is now: 65.0
 > it is not updated when we change `weight_kg`.
 {: .callout}
 
+## Use meaningful variable names.
+
+*   Python doesn't care what you call variables as long as they obey the rules
+    (alphanumeric characters and the underscore).
+
+~~~
+var1 = 42
+ewr_422_yY = 'Ahmed'
+print(ewr_422_yY, 'is', var1, 'years old')
+~~~
+{: .language-python}
+
+*   Use meaningful variable names to help other people understand what the program does. 
+*   The most important "other person" is your future self.
+*   Python itself proposes a standard style including variable naming style through one of its first Python Enhancement Proposals (PEP), [PEP8](https://www.python.org/dev/peps/pep-0008).
+
 
 > ## Check Your Understanding
 >
