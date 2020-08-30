@@ -8,7 +8,9 @@ The best way to learn how to program is to do something useful,
 so this introduction to Python is built around a common scientific task:
 **data analysis**.
 
-In one of the main example data sets, we are studying **inflammation in patients** who have been given a new treatment for arthritis, and
+We will get to some astronomy-specific examples later on, but in one of the main example 
+data sets in this lesson, we are studying **inflammation in patients** who have been given a 
+new treatment for arthritis, and
 need to analyze the first dozen data sets of their daily inflammation. The data sets are stored in
 [comma-separated values]({{ page.root }}/reference/#comma-separated-values) (CSV) format:
 
